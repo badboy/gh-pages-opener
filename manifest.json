@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "gh-pages-oppener",
+  "description": "Open GitHub repository of a *.github.io page",
+  "version": "0.0.1",
+
+  "applications": {
+    "gecko": {
+      "id": "pages-redirect@local",
+      "strict_min_version": "57.0"
+    }
+  },
+
+  "background": {
+      "scripts": ["menu.js"]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus"
+  ]
+}
